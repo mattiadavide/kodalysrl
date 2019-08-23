@@ -3,26 +3,23 @@ body{
 	margin: 0;
     margin:0px auto;
     height: 100%;
-    
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
    
     
     
    
 }
-@font-face {
-  font-family: Calibri;
-  src: url(font/calibril);
-}
 
+.text {font-size: 17px;  text-align: justify; font-weight: 100; line-height: 200%; border-bottom: solid 1px; border-top: solid 1px; border-color: rgba(0,0,0,0.25);}
 
-.header {  width: 100vw; height:60px; text-align: center; vertical-align: middle;  font-family: Calibri; font-size: 18px; font-weight: 300;  position:-webkit-sticky; position:sticky; top:0; background-color: white; display: table-cell; border-bottom: solid 1px; border-bottom-color: rgba(0,0,0,0.25); z-index: 1; background-color: white; opacity: 0.96 } 
+.header {  width: 100vw; height:60px; text-align: center; vertical-align: middle; font-size: 16px;  position:-webkit-sticky; position:sticky; top:0; background-color: white; display: table-cell; border-bottom: solid 1px; border-bottom-color: rgba(0,0,0,0.25); z-index: 1; background-color: white; opacity: 0.96 } 
 
 a { background-color: transparent; border-left: 1px solid; border-left-color: rgba(0,0,0,0.25); }
         
 
 .sec {width: 100%;  text-align: center; vertical-align: middle; width: 100%; }
 
-.banner {height: 300px;}
+
 
 .parallax {background-image: url("");
 
@@ -36,7 +33,7 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
 
 
 
-.col {width: 100%;  word-wrap: break-word;text-align: center;  font-family: Calibri;  background-color: white; margin: auto;  }
+.col {width: 100%;  word-wrap: break-word;text-align: center;  font-family: verdana;  background-color: white; margin: auto; }
 
 
 .box {display: inline-flex;}
@@ -47,7 +44,7 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
     
     
     }
-
+.banner {background-color: black;}
 .logo {
    height: 12vw;
   -webkit-animation-name: spin;
@@ -111,6 +108,8 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
     margin-right: 4%;
     
     
-    }}
+    }
 
-    
+}
+
+@media only screen and (max-width: 725px) { .banner {background-color: transparent;}}
